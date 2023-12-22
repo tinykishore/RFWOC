@@ -1,3 +1,5 @@
+from random import random
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -44,6 +46,10 @@ def compare_roc_curve(
     # Separate features and target
     x = dataframe_rf.drop(target_column, axis=1)
     y = dataframe_rf[target_column]
+
+    # Set Data Randomly here ...
+    # Actually set random data for just normal rf model
+    # This random data will be used for seed in train_test_division
 
     # Split the data into training and testing sets
     rf_x_train, rf_x_test, rf_y_train, rf_y_test = train_test_split(
