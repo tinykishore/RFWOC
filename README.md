@@ -17,3 +17,5 @@ First, we have clustered the data into several clusters using K-Means Clustering
 and then apply the Random Forest technique in each cluster. We have tested the proposed idea with existing classical
 Random Forest technique and found proposed Random Forest technique performs better than traditional Random Forest
 algorithm on five datasets taken from UCI Machine Learning Repository.
+
+[Full Paper](https://ieeexplore.ieee.org/document/10441376)
