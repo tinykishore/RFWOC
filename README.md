@@ -18,4 +18,6 @@ and then apply the Random Forest technique in each cluster. We have tested the p
 Random Forest technique and found proposed Random Forest technique performs better than traditional Random Forest
 algorithm on five datasets taken from UCI Machine Learning Repository.
 
+<img src="./rfwoc/proposed_system_diagram.jpeg" alt="Proposed-System" style="zoom: 33%;" />
+
 [Full Paper](https://ieeexplore.ieee.org/document/10441376)
